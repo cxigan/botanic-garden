@@ -1,0 +1,360 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+h1,
+h2 {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #475F45;
+}
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 1220px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.section {
+    min-height: 100vh;
+}
+
+.title {
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 57px;
+    line-height: 110%;
+    text-transform: capitalize;
+}
+
+.subtitle {
+    font-family: 'Libre Baskerville', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 110%;
+    text-transform: capitalize;
+}
+
+.main {}
+
+.hero {}
+
+.section {}
+
+.container {}
+
+.hero__continer {}
+
+.header {
+    padding: 15px 0px;
+}
+
+.header__content {
+    display: flex;
+}
+
+.logo {
+    display: flex;
+}
+
+.logo__img {}
+
+.logo__pic {}
+
+.logo__text {
+    margin-left: 14px;
+}
+
+.logo__title {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 23px;
+
+}
+
+.logo__subtitle {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.nav {}
+
+.nav__list {
+    display: flex;
+}
+
+.nav__item {
+    margin-left: 40px;
+}
+
+.nav__link {}
+
+.nav__item--border {}
+
+.hero__content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero__column {}
+
+.hero__info {}
+
+.hero__info-content {}
+
+.title {
+    margin-top: 331px;
+    color: #343D33;
+    font-family: 'Libre Baskerville';
+    font-weight: 400;
+    font-size: 57px;
+    line-height: 110%;
+}
+
+.hero__desc {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 150%;
+    color: #414840;
+    ;
+}
+
+.hero__btns {
+    display: flex;
+
+}
+
+.btn {
+    display: block;
+    border: 2px solid #475F45;
+    padding: 20px 40px;
+    margin-right: 16px;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+
+}
+
+.btn--active {
+    background: #475F45;
+    color: white;
+}
+
+.hero__img-block {
+    width: 476px;
+}
+
+.hero__img-wrap {
+    border: 4px solid rgb(52, 61, 51, 0.4);
+    border-radius: 500px 500px 0px 0px;
+    overflow: hidden;
+    width: 100%;
+    height: 660px;
+    padding: 6px;
+}
+
+.hero__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 500px 500px 0px 0px;
+}
+
+.about {
+    background: #343D33;
+    padding: 96px 0px;
+}
+
+.section {}
+
+.container {}
+
+.about__container {
+    display: flex;
+    max-width: 1060px;
+    flex-wrap: wrap;
+
+}
+
+.about__column {}
+
+.about__top-img-wrap {
+    width: 534px;
+    height: 345px;
+    overflow: hidden;
+
+}
+
+.about__top-img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.about__desc {
+    width: 417px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 69px;
+}
+
+.subtitle {
+    font-family: 'Libre Baskerville';
+font-style: normal;
+font-weight: 400;
+font-size: 45px;
+line-height: 110%;
+color: #FFFFFF;
+flex-direction: column;
+
+}
+
+.about__info {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 150%;
+color: #FFFFFF;
+
+}
+
+.btn--white {}
+
+.about__bottom-img-wrap {
+    width: 100%;
+    height: 409px;
+}
+
+.about__bottom-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.news {}
+
+.news__subtitle {}
+
+.news__link {}
+
+.news__content {}
+
+.news__item {}
+
+.news__item--big {}
+
+.news__img-wrap {}
+
+.news__img {}
+
+.news__item-desc {}
+
+.news__item-title {}
+
+.news__item-text {}
+
+.news__item-date {}
+
+.news__list {}
+
+.footer {}
+
+.footer__top {}
+
+.footer__container {}
+
+.footer__column {}
+
+.footer__logo-block {}
+
+.logo {
+    display: flex;
+}
+
+.logo__img {}
+
+.logo__pic {}
+
+.logo__text {}
+
+.logo__title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 150%;
+    color: #343D33;
+    ;
+}
+
+.logo__subtitle {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #333333;
+    ;
+}
+
+.footer__info {}
+
+.footer__subtitle {}
+
+.footer__nav {}
+
+.footer__nav-list {}
+
+.footer__nav-item {}
+
+.footer__nav-link {}
+
+.social__list {}
+
+.social__item {}
+
+.social__link {}
+
+.twitter {}
+
+.fb {}
+
+.in {}
+
+.mail {}
+
+.footer__bottom {}
